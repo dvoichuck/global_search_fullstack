@@ -7,7 +7,7 @@ import SearchModule from "./component/search/search.module";
 const App = () => {
     return (
         <div>
-          <HeaderModule/>
+            <HeaderModule/>
             <SearchModule/>
         </div>
     );

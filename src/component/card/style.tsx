@@ -1,15 +1,12 @@
 import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles((theme) => ({
-    searchInput: {
-        width: "100%",
-        margin: '10px',
-        display: "flex",
-        justifyContent: "center"
+    root: {
+        maxWidth: 345,
     },
-
+    media: {
+        height: '345px',
+    },
 }));
-
-
 
 export default useStyles
